@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070711">
+  <meta name="description" content="NOVA AI is a local-first desktop workspace for AI agents, with support for OpenAI-compatible local models such as Ollama.">
+  <title>NOVA AI — Your local-first AI workspace</title>
+  <style>
+    :root{color-scheme:dark;--bg:#070711;--panel:#101020;--text:#f5f7ff;--muted:#a4abc6;--cyan:#62f5ff;--purple:#b18cff;--line:#282843}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 78% 8%,#29205b 0,transparent 34%),radial-gradient(ellipse at 12% 32%,#073b49 0,transparent 28%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+    a{color:inherit}.wrap{width:min(1080px,calc(100% - 36px));margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid #ffffff14}.brand{font-size:1.1rem;font-weight:800;letter-spacing:.14em}.brand span{color:var(--cyan)}.nav a{color:var(--muted);text-decoration:none;font-size:.93rem}.hero{padding:92px 0 72px;max-width:850px}.eyebrow{display:inline-flex;gap:9px;align-items:center;border:1px solid #62f5ff55;border-radius:99px;padding:6px 13px;color:var(--cyan);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}.dot{width:7px;height:7px;background:var(--cyan);border-radius:50%;box-shadow:0 0 14px var(--cyan)}h1{font-size:clamp(2.7rem,8vw,5.6rem);line-height:1.03;letter-spacing:-.055em;margin:23px 0}h1 em{font-style:normal;background:linear-gradient(90deg,var(--cyan),var(--purple));background-clip:text;color:transparent}.lead{max-width:660px;color:var(--muted);font-size:1.12rem}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;text-decoration:none;font-weight:700;padding:12px 19px;border-radius:12px;border:1px solid var(--line);background:#ffffff08}.btn.primary{color:#041116;background:var(--cyan);border-color:var(--cyan)}.btn:hover{transform:translateY(-1px)}.note{margin-top:20px;color:#a8b0c8;font-size:.87rem}.section{padding:30px 0 64px}.section h2{font-size:clamp(1.7rem,4vw,2.5rem);letter-spacing:-.03em;margin-bottom:8px}.section-intro{color:var(--muted);max-width:650px;margin-top:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:25px}.card{background:linear-gradient(145deg,#15152a,#0c0c18);border:1px solid var(--line);border-radius:18px;padding:22px}.icon{font-size:1.5rem}.card h3{margin:9px 0 5px}.card p{color:var(--muted);font-size:.94rem;margin:0}.callout{border:1px solid #b18cff55;background:#171126;border-radius:18px;padding:22px;margin-top:18px}.callout p{margin:5px 0;color:var(--muted)}footer{border-top:1px solid #ffffff18;padding:24px 0 36px;color:var(--muted);font-size:.88rem;display:flex;gap:15px;justify-content:space-between;flex-wrap:wrap}footer a{color:var(--cyan);text-decoration:none}
+    @media(max-width:720px){.hero{padding:65px 0 48px}.grid{grid-template-columns:1fr}.nav{gap:15px}.nav a{font-size:.82rem}.wrap{width:min(100% - 28px,1080px)}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <div class="brand">NOVA <span>AI</span></div>
+      <a href="https://github.com/ky437217-oss/NOVA-AI">View project ↗</a>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="eyebrow"><span class="dot"></span> Local-first AI workspace</div>
+        <h1>Your AI workflow.<br><em>Your machine. Your control.</em></h1>
+        <p class="lead">NOVA AI is a community-maintained desktop workspace for working with AI agents, with support for OpenAI-compatible model endpoints and local models such as Ollama.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/ky437217-oss/NOVA-AI">Explore source code ↗</a>
+          <a class="btn" href="https://github.com/ky437217-oss/NOVA-AI/blob/main/README.md">Setup guide</a>
+        </div>
+        <p class="note">Desktop software for Windows; this website is the project landing page, not a browser-hosted AI runtime.</p>
+      </section>
+      <section class="section">
+        <h2>Built for a local-first workflow</h2>
+        <p class="section-intro">A focused home for AI-assisted work, with transparent setup notes and an open source repository.</p>
+        <div class="grid">
+          <article class="card"><div class="icon">⌘</div><h3>AI agent workspace</h3><p>Work with a team of AI agents through a desktop interface designed around your workflow.</p></article>
+          <article class="card"><div class="icon">◈</div><h3>Local model support</h3><p>Connect an OpenAI-compatible endpoint, including a local Ollama API running on your own computer.</p></article>
+          <article class="card"><div class="icon">⬡</div><h3>Open source project</h3><p>Review the source, setup instructions, build notes and retained upstream license information on GitHub.</p></article>
+        </div>
+        <div class="callout">
+          <strong>Important project note</strong>
+          <p>NOVA AI is a community-maintained derivative of OpenMausBot, not an official upstream release. Some features and integrations may require additional setup and independent validation. Review the repository's license and attribution notes before redistribution.</p>
+        </div>
+      </section>
+    </main>
+    <footer><span>© NOVA AI community project</span><span><a href="https://github.com/ky437217-oss/NOVA-AI">GitHub</a> · <a href="https://github.com/ky437217-oss/NOVA-AI/blob/main/LICENSING.md">Licensing & attribution</a></span></footer>
+  </div>
+</body>
+</html>
